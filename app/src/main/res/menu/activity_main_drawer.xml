@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/login"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_iklan"
+            android:icon="@drawable/mobil"
+            android:title="Daftar Iklan" />
+        <item
+            android:id="@+id/nav_pasang_iklan"
+            android:icon="@drawable/mobil_plus"
+            android:title="Pasang Iklan" />
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/notification"
+            android:title="Notifikasi" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/pesan"
+            android:title="Pasan" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/user"
+            android:title="Profile" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/question"
+                android:title="Tentang" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/exit"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>
